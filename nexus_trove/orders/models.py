@@ -1,7 +1,8 @@
 from django.db import models
+from products.models import Product
 from customers.models import Customer
 # Create your models here.
-class Cart(models.Model):
+class Order(models.Model):
     LIVE=1
     DELETE=0
     DELETE_CHOICES=((LIVE,'Live'),(DELETE,'Delete'))
@@ -9,3 +10,6 @@ class Cart(models.Model):
     delete_status=models.IntegerField(choices=DELETE_CHOICES,default=LIVE)
     created_at=models.DateTimeField(auto_now_add=True)
     updated_at=models.DateTimeField(auto_now=True)
+class CartItem(models.Model):
+    product=models.ForeignKey(Product,related_name='added_carts',on_delete=models.SET_NULL)
+    quantity=models.IntegerField(default=1)
