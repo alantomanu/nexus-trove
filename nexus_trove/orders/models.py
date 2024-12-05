@@ -14,6 +14,7 @@ class Order(models.Model):
     STATUS_CHOICE=((ORDER_PROCESSED,"ORDER_PROCESSED"),
                    (ORDER_DELIVERD,"ORDER_DELIVERD")
                    (ORDER_REJECTED,"ORDER_REJECTED"))
+    order_status=models.IntegerField(choices=STATUS_CHOICE,default=CART_STAGE)
     owner=models.ForeignKey(Customer,on_delete=models.SET_NULL,related_name='orders')
     delete_status=models.IntegerField(choices=DELETE_CHOICES,default=LIVE)
     created_at=models.DateTimeField(auto_now_add=True)
