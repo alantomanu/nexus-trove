@@ -7,7 +7,8 @@ class Customer(models.Model):
     DELETE_CHOICES=((LIVE,'Live'),(DELETE,'Delete'))
     name=models.CharField(max_length=200)
     address=models.TextField()
-    user=models.OneToOneField(User,on_delete=models.CASCADE, related_name='customer_profile')
+    #cascade means When the referenced object (parent) is deleted, all the objects related to it (child records) are also deleted.
+    user=models.OneToOneField(User,on_delete=models.CASCADE, related_name='customer_profile')#when one customer is created a model for user is created
     phone=models.CharField(max_length=10)
     delete_status=models.IntegerField(choices=DELETE_CHOICES,default=LIVE)
     created_at=models.DateTimeField(auto_now_add=True)
