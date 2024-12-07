@@ -1,0 +1,137 @@
+[33mcommit cf6792fdad305460cab072ec301f9eaa9fd0c77f[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Alanto Manu <alantomanu501@gmail.com>
+Date:   Sat Dec 7 17:55:05 2024 +0530
+
+    linked css using load static
+
+[33mcommit dfd7eb34681d590cc8c43d44a33d0f074ff9c54a[m
+Author: Alanto Manu <alantomanu501@gmail.com>
+Date:   Sat Dec 7 17:51:01 2024 +0530
+
+    changed the location of the templates
+
+[33mcommit 5b8e9c0b69cf8fa51ed49393e516e8080f311907[m
+Author: Alanto Manu <alantomanu501@gmail.com>
+Date:   Sat Dec 7 00:09:36 2024 +0530
+
+    added urls.py for products
+
+[33mcommit c54e25d8648e707da84078be581eb1eeb4480044[m
+Author: Alanto Manu <alantomanu501@gmail.com>
+Date:   Sat Dec 7 00:00:36 2024 +0530
+
+    added index.html and necessary styles also static image files
+
+[33mcommit e93d646df2d137f53d34c7e556d19f7674251d4e[m
+Author: Alanto Manu <alantomanu501@gmail.com>
+Date:   Fri Dec 6 23:54:00 2024 +0530
+
+    added templates and static folders and set urls
+
+[33mcommit f1f8861081ddbd2339abeeb18ad32d6181345211[m
+Author: Alanto Manu <alantomanu501@gmail.com>
+Date:   Fri Dec 6 23:41:14 2024 +0530
+
+    added gitignore file and contents
+
+[33mcommit ae835df95fbd74f53ab378150ee18a8bfeb1f8d9[m
+Author: Alanto Manu <alantomanu501@gmail.com>
+Date:   Thu Dec 5 23:22:35 2024 +0530
+
+    corrected some err in model and makemigrations is applied
+
+[33mcommit df86330fe599e9d642d8a55930d3c5bc75cbdb5c[m
+Author: Alanto Manu <alantomanu501@gmail.com>
+Date:   Thu Dec 5 23:08:28 2024 +0530
+
+    added new apps to installed apps in settings .py of main app
+
+[33mcommit 13f5d58d36a3bc7d36a8d584b98687944d0b19a6[m
+Author: Alanto Manu <alantomanu501@gmail.com>
+Date:   Thu Dec 5 22:59:35 2024 +0530
+
+    add some comments for better understanding the usage of each model
+
+[33mcommit a16c194888845e358a348979d4ef551de482aa3b[m
+Author: Alanto Manu <alantomanu501@gmail.com>
+Date:   Thu Dec 5 22:56:12 2024 +0530
+
+    completed models in themes
+
+[33mcommit 25a73c8c3de8a0bf752c7a8bfe2ee4e2d97a6ad2[m
+Author: Alanto Manu <alantomanu501@gmail.com>
+Date:   Thu Dec 5 22:55:23 2024 +0530
+
+    added new class sitesettings in themes models.py
+
+[33mcommit a43e00bfa2403ae9caa56f71b842a770bdb68862[m
+Author: Alanto Manu <alantomanu501@gmail.com>
+Date:   Thu Dec 5 14:54:57 2024 +0530
+
+    set order status for default order
+
+[33mcommit 3b0a8f7b5de39a9ac7f912e4dd6b31faec87a55d[m
+Author: Alanto Manu <alantomanu501@gmail.com>
+Date:   Thu Dec 5 14:51:09 2024 +0530
+
+    created status for orders in orders model
+
+[33mcommit eacf6120d7e9a3616732d10b8a537c5dd9daa642[m
+Author: Alanto Manu <alantomanu501@gmail.com>
+Date:   Thu Dec 5 14:41:01 2024 +0530
+
+    added new class in orders as orderd item
+
+[33mcommit 9129c0238263577df4706899002c16c4bafdf301[m
+Author: Alanto Manu <alantomanu501@gmail.com>
+Date:   Thu Dec 5 14:35:00 2024 +0530
+
+    made changes in models of orders and changed to orders
+
+[33mcommit abfa0081c0009f0fc49423b13b899de700792977[m
+Author: Alanto Manu <alantomanu501@gmail.com>
+Date:   Thu Dec 5 00:05:34 2024 +0530
+
+    added necessary fields to orders in orders model.py
+
+[33mcommit b4000a2f9714346fca14f7cc42f712ac1217cd1b[m
+Author: Alanto Manu <alantomanu501@gmail.com>
+Date:   Wed Dec 4 23:59:19 2024 +0530
+
+    add customer model and added related fields
+
+[33mcommit 0318dbfe392aac192554ba900d33d13ddc2e65a5[m
+Author: Alanto Manu <alantomanu501@gmail.com>
+Date:   Wed Dec 4 23:51:51 2024 +0530
+
+    add some more fields in products class
+
+[33mcommit 4c79491e604383ea1b39e0a73eb37bf7695dec08[m
+Author: Alanto Manu <alantomanu501@gmail.com>
+Date:   Wed Dec 4 23:43:17 2024 +0530
+
+    added models in product models.py
+
+[33mcommit 07e76e8147504ce4af6bca776f4fe1da60ebd0e3[m
+Author: Alanto Manu <alantomanu501@gmail.com>
+Date:   Wed Dec 4 23:32:46 2024 +0530
+
+    added gitignore file
+
+[33mcommit ee22eeb6b8bc40343e5bac82cf8cd2069c3145c0[m
+Author: Alanto Manu <alantomanu501@gmail.com>
+Date:   Wed Dec 4 23:28:21 2024 +0530
+
+    created base of the project
+
+[33mcommit 650cadf3736f0c318c22474bda22510d9c2c4cd1[m
+Author: Alanto Manu <alantomanu501@gmail.com>
+Date:   Wed Dec 4 23:18:08 2024 +0530
+
+    created a virtual environment
+
+[33mcommit 68148fc847a910e41602b1b04cf6b8771fbf3606[m
+Author: Alanto Manu <144883690+alantomanu@users.noreply.github.com>
+Date:   Wed Dec 4 23:12:26 2024 +0530
+
+    Create README.md
