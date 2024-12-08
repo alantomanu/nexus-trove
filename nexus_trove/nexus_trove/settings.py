@@ -120,7 +120,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = 'nexus-files/'
+STATIC_URL = 'nexus-files/'#urls to display static images ect
 STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
