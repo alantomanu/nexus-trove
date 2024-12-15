@@ -416,28 +416,30 @@ form a{
     .cart-info p{
         display: none;
     }
-}/* New Teal Color Scheme */
-.btn{
+}/* Enhanced Purple & Green Color Scheme */
+.btn {
     display: inline-block;
-    background: #008080; /* Teal color */
+    background: #34b768; /* Vibrant green button */
     color: white;
     padding: 8px 30px;
     margin: 30px 0;
     border-radius: 30px;
     transition: background 0.5s;
+    font-weight: bold;
+    border: none;
 }
 
-.header{
-    background: radial-gradient(#fff, #d9f7f7); /* Light teal background */
+.btn:hover {
+    background: #15733f; /* Darker green for hover */
 }
 
-.btn:hover{
-    background: #006666; /* Darker teal for hover */
+.header {
+    background: radial-gradient(#ffffff, #6b43cb); /* Enhanced gradient with vibrant purple */
 }
 
-.title::after{
+.title::after {
     content: '';
-    background: #008080; /* Teal color */
+    background: #6b43cb; /* Vibrant purple */
     width: 80px;
     height: 5px;
     border-radius: 5px;
@@ -447,29 +449,29 @@ form a{
     transform: translateX(-50%);
 }
 
-.rating .fa{
-    color: #008080; /* Teal color */
+.rating .fa {
+    color: #6b43cb; /* Saturated purple for icons */
 }
 
-.offer{
-    background: radial-gradient(#fff, #d9f7f7); /* Light teal background */
+.offer {
+    background: radial-gradient(#ffffff, #6b43cb); /* Enhanced purple gradient */
     margin-top: 80px;
     padding: 30px 0;
 }
 
-.fa.fa-quote-left{
+.fa.fa-quote-left {
     font-size: 34px;
-    color: #008080; /* Teal color */
+    color: #6b43cb; /* Enhanced purple */
 }
 
-select{
-    border: 1px solid #008080; /* Teal border */
+select {
+    border: 1px solid #6b43cb; /* Purple border */
     padding: 5px;
 }
 
-.page-btn span{
+.page-btn span {
     display: inline-block;
-    border: 1px solid #008080; /* Teal border */
+    border: 1px solid #6b43cb; /* Purple border */
     margin-left: 10px;
     width: 40px;
     height: 40px;
@@ -478,51 +480,52 @@ select{
     cursor: pointer;
 }
 
-.page-btn span:hover{
-    background: #008080; /* Teal background for hover */
+.page-btn span:hover {
+    background: #6b43cb; /* Purple hover background */
     color: white;
 }
 
-.single-product input{
+.single-product input {
     width: 50px;
     height: 40px;
     padding-left: 10px;
     font-size: 20px;
     margin-left: 10px;
-    border: 1px solid #008080; /* Teal border */
+    border: 1px solid #6b43cb; /* Purple border */
     margin-right: 10px;
 }
 
-.single-product .fa{
-    color: #008080; /* Teal color */
+.single-product .fa {
+    color: #6b43cb; /* Purple icons */
     margin-left: 10px;
 }
 
-th{
+th {
     text-align: left;
     padding: 5px;
     color: #fff;
-    background: #008080; /* Teal background */
+    background: #6b43cb; /* Enhanced purple */
     font-weight: normal;
 }
 
-td a{
-    color: #008080; /* Teal color */
+td a {
+    color: #6b43cb; /* Purple links */
     font-size: 12px;
 }
 
-.total-price table{
-    border-top: 3px solid #008080; /* Teal border */
+.total-price table {
+    border-top: 3px solid #6b43cb; /* Purple border */
     width: 100%;
     max-width: 400px;
 }
 
-#Indicator{
+#Indicator {
     width: 100px;
     border: none;
-    background: #008080; /* Teal background */
+    background: #6b43cb; /* Purple indicator */
     height: 3px;
     margin-top: 8px;
     transform: translateX(100px);
     transition: transform 1s;
 }
+
