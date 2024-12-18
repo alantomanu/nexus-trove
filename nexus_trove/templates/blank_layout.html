@@ -14,7 +14,14 @@
 </head>
 
 <body>
-    {%include 'header.html'%}
+    <div class="header">
+        <div class="container">
+            {%include 'menu.html'%}
+            {%block banner%}
+            {%include 'banner.html'%}
+            {%endblock banner%}
+        </div>
+    </div>
     <!-- Feadtued Categories -->
     {%block content%}
     
