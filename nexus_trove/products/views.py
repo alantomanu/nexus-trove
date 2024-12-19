@@ -13,4 +13,4 @@ def list_products(request):
     """
     return render(request,'products.html')
 def detail_product(request):
-    return render(request,'products_detail.html')
+    return render(request,'product_detail.html')
