@@ -13,6 +13,7 @@ def list_products(request):
         _type_: _description_
     """
     product_list=Product.objects.all()
+    context={'products':product_list}
     return render(request,'products.html')
 def detail_product(request):
     return render(request,'product_detail.html')
